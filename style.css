@@ -1,0 +1,88 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/*Navbar*/
+
+#navbar ul {
+	float: right;
+}
+
+#navbar li {
+	float: left;
+    padding-right:20px;
+	line-height: 24px;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#signin {
+	background-color: #2E8AE6;
+	color: white;
+	font-weight: bold;
+	border: none;
+	height: 30px;
+	width: 70px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+/*Logo*/
+
+#logo {
+	padding-top: 250px;
+	text-align: center;
+
+}
+
+#logo img {
+	height: 150px;
+	width: 290px;
+}
+
+/*Search area*/
+
+form {
+	text-align: center;
+}
+
+form input {
+	width: 400px;
+}
+
+p {
+	text-align: center;
+	font-size: 14px;
+}
+
+/*Footer*/
+
+footer {
+	width: 100%;
+	background-color: rgb(242, 242, 242);
+	position: fixed;
+	bottom: 0px;
+}
+
+footer li {
+	display: inline-block;
+}
+
+footer ul li a {
+	color: black;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 24px;
+}
+
+.left {
+	padding-left: 12px;
+}
+
+.right {
+	float: right;
+	padding-right: 26px;
+}
